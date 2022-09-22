@@ -88,12 +88,17 @@ p{
 @media screen and (max-width: 900px){
     body{
         overflow-y: scroll;
+        width: auto;
+        height: 20%;
     }
+    
     .container{
         flex-direction: column-reverse;
         width: 90%;
         height: auto;
         align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
         
        
     }
