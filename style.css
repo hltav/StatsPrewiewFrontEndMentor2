@@ -79,7 +79,7 @@ p{
     font-size: 20px;
     font-weight: 700;
 }
-#standing{
+.stand{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -140,7 +140,7 @@ p{
     .standing{
         font-size: 25px;
     }
-    #standing{
+    .stand{
         font-size: 15px;
     }
 }
