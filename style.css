@@ -17,7 +17,8 @@ body{
     border-radius: 10px;
     background: hsl(244, 38%, 16%);
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;   
+   
     
 }
 section{
@@ -39,8 +40,9 @@ section{
     border-radius: 0 10px 10px 0;
     height: 100%;
     width: 100%;
-    opacity: 0.66;
-    filter: opacity(0.4) drop-shadow(0, 0, 0, #aa5cdb);
+    opacity: 0.8;
+    mix-blend-mode: multiply ;
+    
  
    
    
