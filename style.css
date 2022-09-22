@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    background: hsl(233, 47%, 7%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container{
+    border-radius: 10px;
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;    
+    
+}
+section{
+   margin-left: 80px;
+   margin-top: 80px;
+   margin-right: 100px;
+ 
+}
+.dev-img{
+    width: auto;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(277, 64%, 61%);
+    
+
+}
+
+#dev-img{
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.66;
+    filter: opacity(0.4) drop-shadow(0, 0, 0, #aa5cdb);
+ 
+   
+   
+}
+p{
+    color: white;
+}
+.get{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 35px;
+    width: 400px;
+}
+#get{
+    color: #aa5cdb;
+}
+.discover{
+    width: 350px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.content{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    gap: 50px;
+    line-height: 28px;
+}
+.standing{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+#standing{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+@media screen and (max-width: 900px){
+    body{
+        overflow-y: scroll;
+    }
+    .container{
+        flex-direction: column-reverse;
+        width: 90%;
+        height: auto;
+        align-items: center;
+        
+       
+    }
+    section{
+        width: 90%;
+        margin:20%;
+        
+
+    }
+    .dev-img{
+        
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    #dev-img{
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 100%;
+                      
+    }    
+    .discover{
+        font-size: 16px;
+        width: 95%;
+        text-align: center;
+    }
+    .get{
+        font-size: 30px;
+        width: 95%;
+        text-align: center;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .standing{
+        font-size: 25px;
+    }
+    #standing{
+        font-size: 15px;
+    }
+}
