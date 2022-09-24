@@ -11,41 +11,31 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    
 }
 .container{
     border-radius: 10px;
     background: hsl(244, 38%, 16%);
     display: flex;
     flex-direction: row;   
-   
-    
+    width: 1110px;
 }
 section{
    margin-left: 80px;
-   margin-top: 80px;
+   margin-top: 70px;
    margin-right: 100px;
- 
 }
 .dev-img{
     width: auto;
     height: auto;
     border-radius: 0 10px 10px 0;
     background-color: hsl(277, 64%, 61%);
-    
-
 }
-
 #dev-img{
     border-radius: 0 10px 10px 0;
     height: 100%;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
     mix-blend-mode: multiply ;
-    
- 
-   
-   
 }
 p{
     color: white;
@@ -73,7 +63,7 @@ p{
     display: flex;
     margin-top: 60px;
     margin-bottom: 50px;
-    gap: 50px;
+    gap: 60px;
     line-height: 28px;
 }
 .standing{
@@ -83,8 +73,9 @@ p{
 }
 .stand{
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
+    font-style: normal;
     color: hsla(0, 0%, 100%, 0.6);
 }
 @media screen and (max-width: 900px){
